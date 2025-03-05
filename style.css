@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #e63946; /* Red */
+    --accent-color-dark: #b71c1c; /* Darker Red */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-text-color);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    height: 60px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+/* Logo - Moved to Top-Left */
+.company-logo {
+    position: absolute;
+    left: 20px; /* Aligning to the leftmost */
+    display: flex;
+    align-items: center;
+}
+
+.company-logo img {
+    width: 60px; /* Reduced size */
+    height: auto;
+    max-height: 50px; /* Ensuring it fits within the navbar */
+}
+
+/* Navbar Links - Centered & Avoid Overlapping */
+.nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centering the nav items */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.hover-link {
+    cursor: pointer;
+}
+
+.hover-link:hover {
+    color: var(--secondary-text-color);
+}
+
+/* Navbar Items Active State */
+.nav-item.active, 
+.nav-item:focus, 
+.nav-item:active {
+    color: var(--accent-color) !important;
+    font-weight: bold;
+}
+
+/* Search Bar - Moved to Rightmost */
+.search-bar {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    gap: 8px;
+    position: absolute;
+    right: 20px; /* Aligning to the rightmost */
+}
+
+/* Search Input */
+.news-input {
+    width: 200px;
+    height: 32px; /* Same height as button */
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Search Button */
+.search-button {
+    background-color: var(--accent-color); /* Red */
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    height: 32px; /* Same height as input */
+}
+
+/* Darker Shade on Hover */
+.search-button:hover {
+    background-color: var(--accent-color-dark); /* Darker Red */
+}
+
+/* Prevent Navbar from Overlapping the Dashboard */
+main {
+    padding-block: 20px;
+    margin-top: 80px; /* Adjust this if still overlapping */
+}
+
+/* Card Styling */
+.cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+
+.card {
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+.card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 12px;
+}
+
+.news-source {
+    margin-block: 12px;
+}
