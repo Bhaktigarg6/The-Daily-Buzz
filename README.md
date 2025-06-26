@@ -74,4 +74,4 @@ Check out more of my work on [GitHub](https://github.com/Bhaktigarg6).
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Bhaktigarg6/TheDailyBuzz.git
+   git clone https://github.com/Bhaktigarg6/The-Daily-Buzz
