@@ -36,16 +36,19 @@ With so much information scattered across sources, there’s a strong need for a
 
 ---
 
-🙋‍♀️ About Me
-Hey there! I’m Bhakti Garg, a curious mind currently in my 3rd year of Computer Science at Banasthali Vidyapith 💡
-I love building things that actually work — that connect people, solve real-world problems, or just look cool doing it 💻✨
+## 🙋‍♀️ About Me  
 
-I’m mostly in the backend zone (PHP + MySQL), but I’ve been exploring front-end magic and APIs too. Projects like SkillSwap are where I turn ideas into code.
+Hey there! I’m **Bhakti Garg**, a curious mind currently in my 3rd year of Computer Science at **Banasthali Vidyapith** 💡  
+I love building things that *actually work* — that connect people, solve real-world problems, or just look cool doing it 💻✨
+
+I’m mostly in the **backend zone** (PHP + MySQL), but I’ve been exploring front-end magic and APIs too. Projects like **SkillSwap** are where I turn ideas into code.
 
 🎯 Focused. Practical. Always learning.
 
-Let’s connect and build something impactful:
-GitHub | LinkedIn
+Let’s connect and build something impactful:  
+[GitHub](https://github.com/Bhaktigarg6) | [LinkedIn](https://www.linkedin.com/in/bhakti-garg-90bb62255)
+
+---
 
 
 ## 🛠 How to Run Locally
