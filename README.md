@@ -1,77 +1,55 @@
-# 📰 The Daily Buzz – Stay Informed. Stay Ahead.
+# 📰 The Daily Buzz
 
-**The Daily Buzz** is a clean, dynamic news and blogging platform where readers stay updated with daily stories, and writers can share their voice with the world. Built using **PHP**, **MySQL**, and vanilla **HTML/CSS/JS**, it's a lightweight yet powerful content system.
-
----
-
-## 📌 Why Daily Buzz?
-
-In a world full of noise, this project brings structure to news content with an easy-to-use interface for both admins and users.
-
-- ✍️ Add or manage articles with title, content & image
-- 🧾 Sort articles by categories like Tech, Travel, Education, and more
-- 🔐 Admin login to control news content
-- 🗣️ Comment system for logged-in users
-- 📱 Responsive UI that works across devices
+**The Daily Buzz** is a fully responsive, API-integrated web news application that brings you live updates on various topics like IPL, Finance, Politics, Entertainment, and Technology. Built with simplicity, speed, and clarity in mind, it gives users a seamless experience across devices.
 
 ---
 
-## ⚙️ Features
+## 📌 Need for This Project
 
-- ✅ User & Admin Authentication
-- 📰 Article Posting, Editing & Deletion
-- 📂 Category-based Sorting
-- 🖼️ Optional Image Upload for Posts
-- 💬 Commenting System
-- 🔍 Search Functionality
-- 📱 Responsive Layout using basic CSS
-- 📊 MySQL DB for content & user storage
+With so much information scattered across sources, there’s a strong need for a clean, category-wise news portal that filters and presents reliable content in one place. This project was developed to:
+
+- 📢 Aggregate trending news from a trusted API
+- 📂 Allow easy filtering through topic-based navigation
+- 🔎 Let users instantly search for specific topics
+- 📱 Offer a responsive interface for mobile and desktop users
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-| Layer       | Tech Used           |
-|-------------|---------------------|
-| **Frontend**| HTML, CSS, JavaScript |
-| **Backend** | PHP                 |
-| **Database**| MySQL               |
-| **Image Handling** | PHP & HTML forms |
-
----
-
-## 📁 Folder Structure
-
-DailyBuzz/
-│
-├── assets/ → CSS, JS, and images  
-├── admin/ → Admin login & dashboard  
-├── includes/ → Reusable PHP files (db connection, headers)  
-├── posts/ → Post view & creation logic  
-├── auth/ → Login, Signup, Logout  
-├── comments/ → Comments logic  
-├── index.php → Homepage  
-├── README.md  
+- 🔥 Category-based filtering (IPL, Finance, Politics, Entertainment, Technology)
+- 🔍 Search functionality for custom news topics
+- 🎠 Responsive news **carousel** for trending headlines
+- 📰 Dynamic news cards using **GNews API**
+- ✅ Mobile-first responsive layout
+- ⚡ Smooth UI transitions and API integration
+- 💬 Clickable cards redirecting to full news articles
 
 ---
 
-## 🚀 Project Status
+## 🚀 Tech Stack
 
-- 🔧 Core features completed (Auth, Post, Comment, Categories)
-- 🎯 Improvements planned: Tagging system, user profiles, pagination
-
----
-
-## 🙋‍♀️ About Me
-
-Hi! I’m [Bhakti Garg](https://www.linkedin.com/in/bhakti-garg-90bb62255), a 3rd Year Computer Science student at Banasthali Vidyapith.  
-I enjoy building backend-heavy projects that solve real-world problems — just like this one.  
-Check out more of my work on [GitHub](https://github.com/Bhaktigarg6).
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- GNews API  
 
 ---
 
-## 🧪 How to Run Locally
+🙋‍♀️ About Me
+Hey there! I’m Bhakti Garg, a curious mind currently in my 3rd year of Computer Science at Banasthali Vidyapith 💡
+I love building things that actually work — that connect people, solve real-world problems, or just look cool doing it 💻✨
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Bhaktigarg6/The-Daily-Buzz
+I’m mostly in the backend zone (PHP + MySQL), but I’ve been exploring front-end magic and APIs too. Projects like SkillSwap are where I turn ideas into code.
+
+🎯 Focused. Practical. Always learning.
+
+Let’s connect and build something impactful:
+GitHub | LinkedIn
+
+
+## 🛠 How to Run Locally
+
+```bash
+1. Clone the repo
+   git clone https://github.com/Bhaktigarg6/The-Daily-Buzz.git
